@@ -1,10 +1,20 @@
--- this script not mine, i just edited it to be for krush PvP
+-- this script not mine, i just i edited to be for krush PvP game 
 
 
--- discord hj3_
+
+-- remeber this Script is Beta so maybe its have some bugs or issue
+
+-- feel free to dm me if you have some issue with it.
 
 
--- have fun!!
+-- made with Love by Mashle
+
+
+-- Discord: hj3_
+
+
+-- enjoy!!
+
 
 
 
@@ -14,7 +24,7 @@
 
 --RELOAD GUI
 if game.CoreGui:FindFirstChild("SysBroker") then
-	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Krush script",Text = "GUI Already loaded, rejoin to re-execute",Duration = 5;})
+	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "System Broken",Text = "GUI Already loaded, rejoin to re-execute",Duration = 5;})
 	return
 end
 local version = 2
@@ -426,7 +436,7 @@ TitleBarLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TitleBarLabel.BorderSizePixel = 0
 TitleBarLabel.Size = UDim2.new(1, 0, 0, 30)
 TitleBarLabel.Font = Enum.Font.Unknown
-TitleBarLabel.Text = "Krush pvp Beta"
+TitleBarLabel.Text = "     Krush PvP Beta Made with Love <3"
 TitleBarLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
 TitleBarLabel.TextScaled = true
 TitleBarLabel.TextSize = 14.000
