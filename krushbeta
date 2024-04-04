@@ -15,13 +15,6 @@
 
 -- enjoy!!
 
-
-
-
-
-
-
-
 --RELOAD GUI
 if game.CoreGui:FindFirstChild("SysBroker") then
 	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "System Broken",Text = "GUI Already loaded, rejoin to re-execute",Duration = 5;})
@@ -376,7 +369,7 @@ local Day_Button = Instance.new("TextButton")
 local Night_Button = Instance.new("TextButton")
 local Rejoin_Button = Instance.new("TextButton")
 local CMDX_Button = Instance.new("TextButton")
-local Pluto_Button = Instance.new("TextButton")
+local PlutoFatesEsp_Button = Instance.new("TextButton")
 local Serverhop_Button = Instance.new("TextButton")
 local Explode_Button = Instance.new("TextButton")
 local FreeEmotes_Button = Instance.new("TextButton")
@@ -1849,20 +1842,19 @@ CMDX_Button.TextScaled = true
 CMDX_Button.TextSize = 14.000
 CMDX_Button.TextWrapped = true
 
-Pluto_Button.Name = "Pluto_Button"
-Pluto_Button.Parent = Misc_Section
-Pluto_Button.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-Pluto_Button.BackgroundTransparency = 0.500
-Pluto_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Pluto_Button.BorderSizePixel = 0
-Pluto_Button.Position = UDim2.new(0, 25, 0, 175)
-Pluto_Button.Size = UDim2.new(0, 150, 0, 30)
-Pluto_Button.Font = Enum.Font.Oswald
-Pluto_Button.Text = "Pluto Loader"
-Pluto_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
-Pluto_Button.TextScaled = true
-Pluto_Button.TextSize = 14.000
-Pluto_Button.TextWrapped = true
+PlutoFatesEsp_Button.Name = "PlutoFatesEsp_Button"
+PlutoFatesEsp_Button.Parent = Misc_Section
+PlutoFatesEsp_Button.BackgroundTransparency = 0.500
+PlutoFatesEsp_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlutoFatesEsp_Button.BorderSizePixel = 0
+PlutoFatesEsp_Button.Position = UDim2.new(0, 25, 0, 175)
+PlutoFatesEsp_Button.Size = UDim2.new(0, 150, 0, 30)
+PlutoFatesEsp_Button.Font = Enum.Font.Oswald
+PlutoFatesEsp_Button.Text = "PlutoFatesEsp Loader"
+PlutoFatesEsp_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+PlutoFatesEsp_Button.TextScaled = true
+PlutoFatesEsp_Button.TextSize = 14.000
+PlutoFatesEsp_Button.TextWrapped = true
 
 FreeEmotes_Button.Name = "FreeEmotes_Button"
 FreeEmotes_Button.Parent = Misc_Section
@@ -2145,7 +2137,7 @@ CreateClicker(Rejoin_Button)
 CreateClicker(CMDX_Button)
 CreateClicker(Explode_Button)
 CreateClicker(FreeEmotes_Button)
-CreateClicker(Pluto_Button)
+CreateClicker(PlutoFatesEsp_Button)
 CreateClicker(Serverhop_Button)
 
 local function ChangeSection(SectionClicked)
@@ -3420,8 +3412,10 @@ Night_Button.MouseButton1Click:Connect(function()
 	end
 end)
 
-Pluto_Button.MouseButton1Click:Connect(function()
+PlutoFatesEsp_Button.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))();
+
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
 end)
 
 CMDX_Button.MouseButton1Click:Connect(function()
