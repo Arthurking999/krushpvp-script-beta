@@ -8,23 +8,22 @@ its have PlutoFatesEsp Loader
 
 
 
--- remember this Script is Beta so maybe its have some bugs or issue
+-- remeber this Script is Beta so maybe its have some bugs or issue
 
 -- feel free to dm me if you have some issue with it.
-
-Current Version: beta v0.1
-
-
-Languge used: Lua
 
 
 -- made with Love by Mashle
 
+Current Version: beta v0.1
+
+Language Used: Lua 
 
 -- Discord: hj3_
 
 
--- enjoy!!
+-- enjoy!! 
+
 
 
 
@@ -1938,7 +1937,7 @@ Credits_Label.BorderSizePixel = 0
 Credits_Label.Position = UDim2.new(0, 25, 0, 150)
 Credits_Label.Size = UDim2.new(0, 350, 0, 150)
 Credits_Label.Font = Enum.Font.SourceSans
-Credits_Label.Text = "Made by: Mashle \nDiscord: hj3_ \n Data: 1 \nServer Connect: Connected Succes \nDeveloped by: Mashle \nLanguage Used: Lua \n "version
+Credits_Label.Text = "Made by: Mashle \nDiscord: hj3_ \n Data: 1 \nServer Connect: Connected Succes \nDeveloped by: Mashle \nLanguage Used: Lua \nVersion: "..version
 Credits_Label.TextColor3 = Color3.fromRGB(0, 255, 255)
 Credits_Label.TextSize = 24.000
 Credits_Label.TextWrapped = true
