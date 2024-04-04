@@ -1,19 +1,28 @@
+New Script
+
+
+its have PlutoFatesEsp Loader
+
+
 -- this script not mine, i just i edited to be for krush PvP game 
 
 
 
--- remeber this Script is Beta so maybe its have some bugs or issue
+-- remember this Script is Beta so maybe its have some bugs or issue
 
 -- feel free to dm me if you have some issue with it.
 
 
 -- made with Love by Mashle
 
-
+-- current Version Beta v0.1
 -- Discord: hj3_
 
 
--- enjoy!!
+-- enjoy!! 
+
+
+
 
 --RELOAD GUI
 if game.CoreGui:FindFirstChild("SysBroker") then
@@ -1922,7 +1931,7 @@ Credits_Label.BorderSizePixel = 0
 Credits_Label.Position = UDim2.new(0, 25, 0, 150)
 Credits_Label.Size = UDim2.new(0, 350, 0, 150)
 Credits_Label.Font = Enum.Font.SourceSans
-Credits_Label.Text = "Made by: MalwareHUB \nDiscord: system_calix\nVersion: "..version
+Credits_Label.Text = "Made by: Mashle \nDiscord: hj3_ \n Data: 1 \nServer Connect: Connected Succes \nDeveloped by: Mashle \nLanguage Used: Lua \nCurrent Version: Beta v0.1
 Credits_Label.TextColor3 = Color3.fromRGB(0, 255, 255)
 Credits_Label.TextSize = 24.000
 Credits_Label.TextWrapped = true
